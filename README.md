@@ -1,5 +1,5 @@
 # array-flatten
-flatten a nested array in lua
+flatten a nested array
 
 ## Installation
 - Make sure you have [luvit](https://luvit.io/install.html) installed
