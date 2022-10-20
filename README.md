@@ -2,11 +2,9 @@
 flatten a nested array
 
 ## Installation
-- Make sure you have [luvit](https://luvit.io/install.html) installed
-- Run the command `lit install alphafantomu/array-flatten`
-- `require('array-flatten')` to reference the library
-
-- There is no [LuaRocks](https://luarocks.org/) release, but only `init.lua` is necessary to use the library.
+- This package uses the [lit](https://github.com/luvit/lit) package manager, run `lit install alphafantomu/array-flatten`
+- If you're using this in a self-contained binary through [Luvi](https://github.com/luvit/luvi), you may include it inside `package.lua` as well `alphafantomu/array-flatten`
+- You can reference the library using `require('array-flatten')`
 
 ## Documentation
 `array flatten(array table)`, no checks if the table is an array or not
